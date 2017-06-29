@@ -2,14 +2,10 @@
 .SYNOPSIS
     Outputs the number of records in the specified SQL Server database table.
 
-.DESCRIPTION
-	This runbook demonstrates how to communicate with a SQL Server. Specifically, this runbook
-    outputs the number of records in the specified SQL Server database table.
-
-    In order for this runbook to work, the SQL Server must be accessible from the runbook worker
-    running this runbook. Make sure the SQL Server allows incoming connections from Azure services
+.
+    runffning this rffunbook. Make sure the SQL Server allows incoming connections from Azure services
 	by selecting 'Allow Windows Azure Services' on the SQL Server configuration page in Azure.
-
+f
     This runbook also requires an Automation Credential asset be created before the runbook is
     run, which stores the username and password of an account with access to the SQL Server.
     That credential should be referenced for the SqlCredential parameter of this runbook.
